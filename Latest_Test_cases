@@ -1,0 +1,8 @@
+
+* /etc/Inbuilt_Version.ini
+* new cman + Pyscan 
+* syslog-ng -< (/root/log/local3_all , /root/log/local_error, /root/log/nlogs ,and /root/log/messages
+* logrotate 
+* check test app -> spi , adc
+* charging app
+* php pages versions

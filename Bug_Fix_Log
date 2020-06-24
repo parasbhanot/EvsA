@@ -1,0 +1,6 @@
+
+BugFixes
+
++ pyScan.py permission added
++ delay compression removed on all logfiles
++ timestamps for nlogs added

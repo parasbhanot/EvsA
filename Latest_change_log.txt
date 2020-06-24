@@ -1,0 +1,29 @@
+
+# Added -> 
+
+os -:
+
+1) syslogs.x
+2) logrotate.x 
+3) cronjobs.x
+
+apps -: 
+
+1) watchdog x 
+2) startup-app x
+
+# Updated -> 
+
+os -: 
+
+1) screen saver disabled x
+
+apps -: 
+
+1) changing App - vb9.x
+2) ppp service - v2.x
+3) login app - v3.5x
+4) php page -v2x
+
+
+

@@ -1,0 +1,21 @@
+#!/bin/sh
+### BEGIN INIT INFO
+### run pppd and gpio at begining 
+### END INIT INFO
+
+start()
+{
+ echo "SETUPING CAN0...."
+ip link set can0 up type can bitrate 250000&
+echo "starting watchdog from rootfs"
+/home/launchApps/Apps/watchdog/watchdogRun&
+}
+
+case "$1" in
+  start)
+    start
+  ;;
+  *)
+  ;;
+esac
+

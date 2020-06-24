@@ -1,0 +1,15 @@
+# Hardware ------------------------------------------------------------ 
+# SOMID (2decimal Digit)+ CARRIAR BOARD ID (2decimal Digit) + REV (2decimal Digit)
+# AtmelSAMD SOM - 0 
+
+#HWID = 000000 - EVDC1
+ HW_ID = 000000
+ HW_NAME = EVDC1-MCU-REV1 
+
+#---------------------------SybSystem----------------------------------
+# R4 - having saparate service for ADC reading  
+
+ SYSID = O3
+ SUBSYS = R4
+
+#------------------------------------------------------------------------
